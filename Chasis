@@ -1,0 +1,42 @@
+package cosas.de.la.escuela;
+
+public class Chasis {
+    private int resistencia;
+    private String tamaño;
+    private String volante;
+
+    public Chasis(int resistencia, String tamaño, String volante) {
+        this.resistencia = resistencia;
+        this.tamaño = tamaño;
+        this.volante = volante;
+
+        
+    }
+
+    public int getResistencia() {
+        return resistencia;
+    }
+
+    public void setResistencia(int resistencia) {
+        this.resistencia = resistencia;
+    }
+
+    public String getTamaño() {
+        return tamaño;
+    }
+
+    public void setTamaño(String tamaño) {
+        this.tamaño = tamaño;
+    }
+
+    public String getVolante() {
+        return volante;
+    }
+
+    public void setVolante(String volante) {
+        this.volante = volante;
+    }
+
+  
+    
+}
