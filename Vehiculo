@@ -1,0 +1,47 @@
+package cosas.de.la.escuela;
+
+
+    public class Vehiculo {
+        public static void main(String[] args){
+     }
+              private int matricula;
+              private float kilometros;
+
+    public Vehiculo(int matricula, float kilometros) {
+        this.matricula = matricula;
+        this.kilometros = kilometros;
+    }
+
+            public void MostrarDatos(){
+        
+              Llanta llant= new Llanta((float) 40.20,8,600);{
+         System.out.println("Mi diametro es "+llant.getDiametro());
+         System.out.println("asi cómo me ves tengo "+llant.getNdellantas()+"Ruedas chico");
+         System.out.println("nonono, mis 8 ruedas tienen un aguante de más de "+llant.getTenacidad());
+         
+         Chasis chase= new Chasis (10, "gigante bru", "rosa c:");{
+                  System.out.println("Segun la escala en mohs mi dureza es de "+chase.getResistencia());
+                  System.out.println("¿qué tan grande soy?, ¿no estás viendo?"+chase.getTamaño());
+                  System.out.println("¿De qué color el volante?"+chase.getVolante());
+                  
+        Motor moto=new Motor(1700, 120);{
+             System.out.println("Mi numero de revoluciones por minuto son"+moto.getRevoluciones());
+             System.out.println("Jamas entenderías mi potencia, pero te la diré "+moto.getPotencia());
+         }
+        Vehiculo vehi=new Vehiculo (1414, (float) 2000.23);{
+             System.out.println("Interesante Matricula "+ matricula);
+             System.out.println("No llevas muchos kilometros "+ kilometros);
+                 
+             }
+             
+         }
+      vehiculo.MostrarDatos(){
+                  
+              }
+              }
+         
+      
+                
+            }
+    }
+ 
