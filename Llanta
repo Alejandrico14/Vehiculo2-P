@@ -1,0 +1,41 @@
+package cosas.de.la.escuela;
+
+
+public class Llanta  {
+    private float diametro;
+    private int Ndellantas;
+    private int tenacidad;
+
+    public Llanta(float diametro, int Ndellantas, int tenacidad) {
+        this.diametro = diametro;
+        this.Ndellantas = Ndellantas;
+        this.tenacidad = tenacidad;
+        
+    }
+
+    public float getDiametro() {
+        return diametro;
+    }
+
+    public void setDiametro(float diametro) {
+        this.diametro = diametro;
+    }
+
+    public int getNdellantas() {
+        return Ndellantas;
+    }
+
+    public void setNdellantas(int Ndellantas) {
+        this.Ndellantas = Ndellantas;
+    }
+
+    public int getTenacidad() {
+        return tenacidad;
+    }
+
+    public void setTenacidad(int tenacidad) {
+        this.tenacidad = tenacidad;
+    }
+    
+}
+    
